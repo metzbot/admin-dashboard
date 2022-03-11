@@ -69,6 +69,7 @@ h1 {
 
 .nav {
   font-size: 1.5rem;
+  font-weight: 500;
   margin-top: 3.25rem;
   display: grid;
   gap: .75rem;
@@ -82,6 +83,7 @@ h1 {
 
 .nav-item-current {
   font-weight: 900;
+  color:
 }
 
 .material-icons-outlined.md-36 { 
@@ -139,7 +141,7 @@ header .search-bar {
   font-weight: 700;
   padding: .25em;
   padding-left: .5em;
-  width: 100%;
+  width: 50%;
 }
 
 .search-bar input:focus-visible {
@@ -175,7 +177,7 @@ header .user-menu {
 
 header .user-buttons {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
   gap: 1em;
 }
